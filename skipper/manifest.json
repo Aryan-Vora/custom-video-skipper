@@ -1,0 +1,27 @@
+{
+    "manifest_version": 3,
+    "name": "Custom Video Skipper",
+    "version": "1.0",
+    "permissions": [
+        "storage",
+        "scripting",
+        "activeTab"
+    ],
+    "content_scripts": [
+        {
+            "matches": [
+                "*://aniwave.se/*"
+            ],
+            "js": [
+                "content.js"
+            ],
+            "all_frames": true
+        }
+    ],
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "1": "icons/icon.png"
+        }
+    }
+}
