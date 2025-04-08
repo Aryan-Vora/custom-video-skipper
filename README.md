@@ -4,9 +4,6 @@ A Chrome extension that allows you to customize keyboard shortcuts and skip time
 
 ## Installation
 
-### From Chrome Web Store
-I'll fill out the application and then it should be there soon.
-
 ### Manual Installation
 1. Download or clone this repository
 2. Open Chrome and navigate to `chrome://extensions/`
