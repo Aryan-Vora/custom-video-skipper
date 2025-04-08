@@ -1,0 +1,25 @@
+body {
+  font-family: sans-serif;
+  padding: 10px;
+  width: 200px;
+}
+input {
+  width: 100%;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+}
+#statusMessage {
+  margin-top: 10px;
+  font-weight: bold;
+  text-align: center;
+  min-height: 20px;
+}
+.success {
+  color: green;
+}
+.error {
+  color: red;
+}
+input.error-field {
+  border: 2px solid red;
+}

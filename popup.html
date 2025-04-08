@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Skipper Settings</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <h1>Skipper Settings</h1>
+    <label for="skipTimeInput">Skip Time (sec):</label>
+    <input type="number" id="skipTimeInput" min="1" />
+    <br />
+    <label for="forwardKeyInput">Forward Key:</label>
+    <input type="text" id="forwardKeyInput" maxlength="1" />
+    <br />
+    <label for="backwardKeyInput">Backward Key:</label>
+    <input type="text" id="backwardKeyInput" maxlength="1" />
+    <br />
+    <button id="saveBtn">Save</button>
+    <div id="statusMessage"></div>
+    <script src="popup.js"></script>
+</body>
+
+</html>
