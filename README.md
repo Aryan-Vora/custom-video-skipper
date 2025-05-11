@@ -1,6 +1,6 @@
 # Custom Video Skipper
 
-A Chrome extension that allows you to customize keyboard shortcuts and skip times for skipping forward and backward in any video.
+A Chrome extension that allows you to customize keyboard shortcuts and skip times for skipping forward and backward in any video. I'm not going to upload this to the chrome web store because there's probably an extension out there identical to this. 
 
 ## Installation
 
